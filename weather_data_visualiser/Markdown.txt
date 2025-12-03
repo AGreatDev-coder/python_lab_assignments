@@ -1,0 +1,57 @@
+Weather Data Analysis Report: New Delhi 2023
+
+1. Introduction
+
+This report presents an analysis of daily weather patterns in New Delhi, India, for the year 2023. The objective was to identify seasonal trends in temperature, rainfall, and humidity using Python-based data analysis tools. The dataset covers seasonal transitions from winter to summer, the monsoon season, and the return to winter.
+
+2. Statistical Summary
+
+Based on the computational analysis of the dataset, the following key statistics were observed:
+
+Temperature Range: The year saw significant variance, with lows in January (~12°C) and peaks in May (~43.5°C).
+
+Total Rainfall: The cumulative rainfall for the year was significant, primarily driven by the monsoon season.
+
+Humidity: Ranged from arid conditions (~18-20%) in peak summer to saturated conditions (>90%) during the monsoon.
+
+3. Trends and Patterns
+
+3.1 Temperature Trends
+
+The line chart (temperature_trend.png) reveals a classic bell-curve distribution typical of Northern India:
+
+Winter (Jan-Feb): Temperatures started low, averaging around 14-15°C.
+
+Summer Rise (Mar-May): A sharp, steady increase was observed, peaking in late May with temperatures exceeding 40°C.
+
+Monsoon Cooling (Jun-Sep): A noticeable dip occurred in late June/July as rainfall onset cooled the region, stabilizing temperatures in the low 30s (°C).
+
+Winter Return (Oct-Dec): A gradual decline began in October, returning to lows of ~11-12°C by December.
+
+3.2 Rainfall Distribution
+
+The bar chart (monthly_rainfall.png) highlights a distinct wet season:
+
+Dry Season: January through May remained mostly dry with only sporadic precipitation.
+
+Monsoon Surge: There was a dramatic spike in rainfall starting in late June, peaking in July and August. These two months account for the majority of the year's total precipitation.
+
+Post-Monsoon: Rainfall dropped off sharply in October, returning to dry conditions for the end of the year.
+
+3.3 Temperature vs. Humidity Correlation
+
+The scatter plot (temp_vs_humidity.png) suggests an interesting relationship:
+
+Inverse Correlation (Winter/Summer): Generally, as temperature rises (approaching May), humidity drops significantly, creating a "dry heat."
+
+Monsoon Exception: During July and August, both temperature and humidity remain relatively high, clustering in the center-right of the plot. This indicates "muggy" conditions distinct from the dry summer heat.
+
+4. Anomalies and Observations
+
+Heatwave Intensity: The rapid rise in April/May suggests a severe heatwave period before the relief of the monsoon.
+
+Monsoon Intensity: The concentration of rainfall in just 2-3 months poses potential risks for urban drainage, a common issue in Delhi.
+
+5. Conclusion
+
+The analysis confirms that New Delhi experiences extreme seasonal variations. The data effectively captures the three primary seasons: the cool dry winter, the scorching dry summer, and the hot humid monsoon. These insights are vital for planning urban sustainability initiatives, such as water harvesting during the short monsoon window to cater to the long dry periods.
