@@ -110,7 +110,7 @@ def main():
     
     cleaned_df = clean_data(df)
     
-    cleaned_df.to_csv('cleaned_weather_data.csv', index=False)
+    cleaned_df.to_csv('weather_data.csv', index=False)
     
     stats = perform_statistical_analysis(cleaned_df)
     monthly_stats = analyze_monthly_data(cleaned_df)
